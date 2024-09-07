@@ -8,7 +8,7 @@ import time
 import os
 import google.generativeai as genai
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyA1-uLTtQ4YRhZpDfrC82LMp0S23nT_K34'
+os.environ['GEMINI_API_KEY'] = 'YOUR-API-KEY'
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 generation_config = {
